@@ -1,0 +1,905 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.header{
+    height:100px;
+    background:white;
+   
+   
+   
+}
+
+
+.simple {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.navbar{
+    display:flex;
+    gap:35px;
+   
+ justify-content:center;
+ align-items:center;
+}
+
+
+.navbar a{
+    text-decoration:none;
+    color:#222;
+    font-size:22px;
+    position:relative;
+}
+
+
+.navbar a:hover{
+    color:#009ca6;
+}
+
+
+/* HERO */
+
+.hero{
+
+    height:100vh;
+
+    background-image:
+    linear-gradient(
+        rgba(255,255,255,0.25),
+        rgba(255,255,255,0.25)
+    ),
+    url("https://i.pinimg.com/1200x/08/4c/6b/084c6b4b537bfa63b5328da7a5d6d44a.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+
+.hero-content{
+
+    text-align:center;
+
+}
+
+
+
+.hero h1{
+
+    font-size:70px;
+    font-weight:400;
+    line-height:1.3;
+    color:#111;
+
+}
+
+
+
+.hero button{
+
+    margin-top:30px;
+
+    width:360px;
+    height:60px;
+
+    background:transparent;
+
+    border:2px solid #0aa3ad;
+
+    color:#0aa3ad;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+}
+
+
+
+.hero button:hover{
+
+    background:#0aa3ad;
+    color:white;
+
+}
+
+
+
+/* bottom */
+
+.bottom-bar{
+
+    height:80px;
+
+    background:#0aa3ad;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:25px;
+
+    font-weight:bold;
+
+}
+
+
+/* qebta 5qoraal is saran */
+/*  */
+.feel-section{
+    padding:50px 80px;
+}
+
+
+.feel-section h1{
+    text-align:center;
+    font-size:55px;
+    font-weight:400;
+    color:#0ca5ad;
+    margin-bottom:70px;
+}
+
+
+
+.box-container{
+
+    position:relative;
+    height:600px;
+}
+
+
+
+.box{
+
+    width:42%;
+    padding:55px 40px;
+    text-align:center;
+    font-size:25px;
+    line-height:1.6;
+    color:white;
+    background:#0ca5ad;
+
+}
+
+
+
+/* top left */
+
+.top-left{
+
+    position:absolute;
+    top:0;
+    left:0;
+
+}
+
+
+
+/* top right */
+
+.top-right{
+
+    position:absolute;
+    top:0;
+    right:0;
+
+}
+
+
+
+/* middle */
+
+.center-box{
+
+    position:absolute;
+    top:160px;
+    left:50%;
+    transform:translateX(-50%);
+
+    width:40%;
+    background:#ffd477;
+    color:#111;
+
+}
+
+
+
+/* bottom left */
+
+.bottom-left{
+
+    position:absolute;
+    bottom:0;
+    left:0;
+
+}
+
+
+
+/* bottom right */
+
+.bottom-right{
+
+    position:absolute;
+    bottom:0;
+    right:0;
+
+}
+
+
+/* miiska cuntada bdan */
+.miis{
+    background-image: url(https://i.pinimg.com/736x/b8/a5/9e/b8a59ec3296bfb2c3a1d9b4684f1493b.jpg);
+       width: 100%;
+   height: 50vh;
+    background-size: cover;
+ background-position: center;
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+/* sax qeybtan hadhow */
+.testimonial{
+    background:#12b5c3;
+    color:white;
+    padding:90px 8%;
+    text-align:center;
+  
+  
+}
+
+.testimonial h1{
+    font-size:55px;
+    font-weight:300;
+    margin-bottom:80px;
+}
+
+.testimonial-container{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:320px;
+}
+
+.card p{
+    font-size:24px;
+    line-height:1.6;
+    font-weight:300;
+}
+
+.card h3{
+    margin-top:35px;
+    font-size:30px;
+    font-weight:400;
+}
+
+.buttons{
+    margin-top:80px;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.buttons button{
+    width:75px;
+    height:75px;
+    border:none;
+    border-radius:50%;
+    background:#d8ecee;
+    color:#169fb0;
+    font-size:28px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.buttons button:hover{
+    background:white;
+    transform:scale(1.08);
+}
+
+.box-1 {
+    width: 290px;
+    height: 450px;
+
+ position: relative;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    text-align: center;
+    padding: 20px;
+}
+
+ .icon {
+      color: #009ca6;
+}
+.cake {
+    background-image: url(https://i.pinimg.com/736x/b7/6d/0a/b76d0af39d48f8231c2921dd7d57c0e3.jpg);
+          width: 95%;
+  height: 50vh;
+   background-size: cover;
+background-position: right;
+position: relative;
+display: flex;
+color:#009ca6;
+margin: 20px;
+
+}
+.cake button {
+    border: none;
+    width: 16%;
+    height: 65px;
+    border-radius: 25px;
+    background-color: #009ca6;
+    color: white;
+    text-align: center;
+
+}
+.cake button ,
+.cake h1 {
+     position: relative;
+    left: 500px;
+    top: 50px;
+}
+
+
+/* Newsletter */
+
+.newsletter{
+    background-image:url("https://i.pinimg.com/736x/42/31/da/4231da610df122cd16a22f3dc461b123.jpg");
+    background-size:cover;
+    background-position:center;
+    padding:100px 0;
+}
+
+.overlay{
+    width:90%;
+    max-width:1500px;
+    margin:auto;
+    background:#fff;
+    padding:60px;
+    text-align:center;
+}
+
+.overlay h1{
+    font-size:60px;
+    margin-bottom:30px;
+    font-weight:bold;
+}
+
+.overlay p{
+    font-size:25px;
+    color:#444;
+    width:80%;
+    margin:0 auto 50px;
+    line-height:1.6;
+}
+
+/* Form */
+
+.subscribe-form{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.subscribe-form input{
+    width:260px;
+    height:65px;
+    padding-left:20px;
+    font-size:18px;
+    border:1px solid #ddd;
+    outline:none;
+}
+
+.subscribe-form button{
+    width:170px;
+    height:65px;
+    background:#18aeb7;
+    color:white;
+    border:none;
+    font-size:22px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.subscribe-form button:hover{
+    background:#128d96;
+}
+
+/* Footer */
+
+footer{
+    background:#18aeb7;
+    color:white;
+    text-align:center;
+    padding:35px 20px;
+}
+
+footer p{
+    font-size:20px;
+    line-height:1.8;
+}
+
+.footer-links{
+    margin-top:25px;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:22px;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    text-decoration:underline;
+}
+
+/* about  us*/
+
+.backgroundimg {
+    background-image: url(https://i.pinimg.com/1200x/7f/90/43/7f9043573059c5f3cc249cdf75e7a461.jpg);
+    width: 100%;
+    height: 70vh;
+     background-size: cover;
+  background-position: center;
+  position: relative;
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.backgroundimg h1 {
+      font-size: 70px;
+  margin-bottom: 20px;
+  font-family: serif;
+  
+}
+
+.btn {
+     font-size: 20px;
+     background-color: rgb(209, 167, 90);
+   color: white;
+   border-radius: 40px;
+   border: none;
+   width: 250px;
+   height: 80px;
+text-align: center;
+   
+}
+
+.mission {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+     font-size: 20px;
+   line-height: 1.7;
+
+}
+.miis h1 {
+    color: white;
+  text-decoration:underline rgb(129, 22, 22) 10px;
+
+ 
+}
+
+.imgqoraal img{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+/* farta paragrapka garay ka dhigeynaa  */
+
+.imgqoraal p {
+    color: rgb(87, 86, 86);
+}
+.onlyqoraal p {
+    color: rgb(87, 86, 86);
+}
+
+ /* our Specialties */
+ .Specialties {
+  
+   margin: 50px;
+   text-align: center;
+ }
+
+/* box-jalaha */
+
+
+
+.box-jalaha {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+        gap: 30px;
+  
+
+
+}
+.box-jalaha1 {
+    width: 290px;
+    height: 450px;
+    background-color: rgb(240, 175, 53);
+ position: relative;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    padding: 20px;
+
+
+}
+.icon {
+    background-color: white;
+   
+       font-size: 90px;
+         border-radius: 50%;
+    padding: 20px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 130px;
+    height: 130px;
+        transform: translateY(-40px);
+
+   
+}
+
+.box-jalaha1 h2 {
+    margin-bottom: 20px;
+   
+}
+
+
+.box-jalaha1 p {
+    line-height: 1.3;
+}
+
+/* button learn */
+.learn {
+    border: none;
+    height: 70px;
+    width: 350px;
+
+    text-align: center;
+    background-color: rgb(64, 196, 196);
+    color: white;
+border-radius: 40px;
+ display: block;
+    margin: 30px auto;
+}
+.qeybta-udanbeyso {
+    background-color: rgb(64, 196, 196);
+    width: 100%;
+    height: 730px;
+    
+    
+    
+}
+
+.Meet {
+    text-align: center;
+  padding-top: 30px;
+    color: white;
+     
+
+    
+}
+.contaneir {
+gap: 10px;
+display: flex;
+justify-content: space-around;
+}
+.qoralswr {
+    padding: 20px;
+     line-height: 1.3;
+     padding-left: 30px;
+     color: white;
+}
+.qoralswr img {
+ width: 280px;
+ height: 300px;
+ margin-bottom: 3px;
+}
+.qoralswr button {
+    color: rgb(64, 196, 196);
+    background-color: white;
+    border-radius: 40px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    margin-top: 15px;
+    
+}
+.qoralswr button:hover {
+    background-color:rgb(189, 245, 245);
+    transform: scale(1);
+}
+
+/* mesha udanbeysa  */
+.hoos {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-family: serif;
+}
+
+
+/* work with us */
+
+/* h1 service */
+.Services {
+    margin: 50px;
+   text-align: center;
+}
+
+
+.two {
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+    text-align: center;
+    gap: 30px;
+}
+.workswr img {
+    width: 500px;
+height: 350px;
+margin-bottom: 3px;
+}
+
+.workswr button{
+    width:150px;
+    height:60px;
+    background-color:rgb(64,196,196);
+    border:none;
+    border-radius:40px;
+    color:white;
+    cursor:pointer;
+    margin-top: 10px;
+}
+
+.footer1 {
+    background-color: rgb(64, 196, 196);
+width: 100%;
+height: 100px;
+color: white;
+ text-align: center;
+ padding-top: 15px;
+ font-family: serif;
+ margin-top: 10px;
+}
+
+/* blog */
+/* .......................................... */
+
+/* mmedia */
+
+.assoon {
+margin-top: 30px;
+text-align: center;
+margin-bottom: 20px;
+line-height: 3;
+color: rgb(69, 68, 68);
+}
+
+.sawiromedia {
+    margin: 30px;
+    line-height: 2;
+
+}
+.sawiromedia img {
+        width: 200px;
+height: 250px;
+margin-bottom: 20px;
+}
+
+.media {
+display: grid;
+grid-template-columns: repeat(5,1fr);
+gap: 10px;
+}
+hr {
+     border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 40px 0;
+
+    
+}
+
+
+/* contact us*/
+
+.sawirka-gabarta{
+    background-image: url(https://i.pinimg.com/736x/2f/3f/49/2f3f49720db30ef0f4109a04a69f740b.jpg);
+       width: 100%;
+   height: 40vh;
+    background-size: cover;
+ background-position: center;
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+
+}
+
+.sawirka-gabarta {
+    color: white;
+    font-size: 40px;
+}
+.qoraaalo {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+
+
+
+.contact-form{
+    background:#fff;
+    padding:40px;
+    border-radius:10px;
+}
+
+.contact-form label{
+    display:block;
+    font-weight:600;
+    margin:18px 0 8px;
+    color:#333;
+}
+
+.name-box{
+    display:flex;
+    gap:20px;
+}
+
+.name-box div{
+    flex:1;
+}
+
+.contact-form input,
+.contact-form select{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    outline:none;
+    font-size:16px;
+}
+
+.contact-form input:focus,
+.contact-form select:focus{
+    border-color:#6F8D43;
+}
+
+.contact-form small{
+    display:block;
+    color:#777;
+    margin-top:5px;
+    font-size:13px;
+}
+
+.contact-form button{
+    width:100%;
+    margin-top:30px;
+    padding:15px;
+    background:#6F8D43;
+    color:#fff;
+    border:none;
+    border-radius:6px;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact-form button:hover{
+    background:#557032;
+}
+
+@media(max-width:768px){
+
+    .name-box{
+        flex-direction:column;
+    }
+
+}
+
+.contact-form h3{
+    margin-top:30px;
+    font-size:20px;
+    color:#333;
+}
+
+.check{
+    display:block;
+    margin:12px 0;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.check input{
+    margin-right:10px;
+    width:16px;
+    height:16px;
+}
+
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.contact-form button{
+    margin-top:25px;
+    width:10%;
+    padding:15px;
+    background:#417d06;
+    color:white;
+    border:none;
+    border-radius:20px;
+}
+/* last */
+.last{
+line-height: 3;
+margin-top: 15px;
+text-align: center;
+
+
+}
+.last button {
+    text-align: center;
+    width: 25%;
+    border-radius: 20px;
+  background:#417d06;
+color:white;
+border: none;
+height: 50px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 3;
+   font-size: 15px;
+}
+
